@@ -155,7 +155,10 @@ if __name__ == "__main__":
     workQueue = Queue.Queue(0)
 
     queueLock.acquire()
+    '''
     for walkNo in range(0,len(TBeginList)):
+    '''
+    for walkNo in range(0,5):
         workQueue.put(walkNo)
     queueLock.release()
 
