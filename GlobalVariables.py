@@ -19,7 +19,7 @@ name_database='raw' # Name of the database where, PriceSeries.csv and name_Trade
 name_Tradesheet_Table="individualinfo" #name of the tradesheet table
 
 
-MaxIndividualsInGen=500 #Maximum Individuals that you want in each generation
+MaxIndividualsInGen=10000 #Maximum Individuals that you want in each generation
 
 #Dont change these for now
 MinimumGen=2 #Minimum Generations for which the program should run, provided those many individuals exist
